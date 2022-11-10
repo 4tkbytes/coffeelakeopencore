@@ -1,6 +1,8 @@
 # Coffee Lake Opencore Repository
 Specs:
 
+| Hardware | Name |
+|----------|------|
 | CPU | Intel(R) Core(TM) i7-8700 CPU @ 3.20GHz |
 | (d)GPU | NVIDIA GeForce GT 1030 |
 | (i)gpu | Intel(R) UHD Graphics 630 |
