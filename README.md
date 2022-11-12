@@ -37,7 +37,8 @@ config.plist:
 - Kernel/Quirks
     - AppleXcpmCfgLock ; enabled
 
-How I did it:
+###How I did it:
+
 dreamwhite#0001 first started off with making the EFI, then I grabbed an offline installer from Olarila. Now you might stop and think that Olarila is bad, but you can also use it as an offline installer. I paired up my efi with Olarila USB and installed it. I only did this because I did not have a stable internet connection. After macOS installed, I wiped my usb, added com.apple.recovery.boot and the EFI, and then I booted into macOS. It as successfully done. 
 
 
