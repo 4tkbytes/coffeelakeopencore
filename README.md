@@ -22,7 +22,8 @@ Kexts:
 - AppleALC
 - IntelMausi
 - USBToolBox
-- IDK WiFi and Bluetooth
+- BlueToolFixUp
+- AirportBRCMFixup
 
 SSDT:
 - SSDT-AWAC
