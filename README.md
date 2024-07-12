@@ -40,7 +40,12 @@ config.plist:
 
 ### How I did it:
 
-dreamwhite#0001 first started off with making the EFI, then I grabbed an offline installer from Olarila. Now you might stop and think that Olarila is bad, but you can also use it as an offline installer. I paired up my efi with Olarila USB and installed it. I only did this because I did not have a stable internet connection. After macOS installed, I wiped my usb, added com.apple.recovery.boot and the EFI, and then I booted into macOS. It as successfully done. 
+~~dreamwhite#0001 first started off with making the EFI, then I grabbed an offline installer from Olarila. Now you might stop and think that Olarila is bad, but you can also use it as an offline installer. I paired up my efi with Olarila USB and installed it. I only did this because I did not have a stable internet connection. After macOS installed, I wiped my usb, added com.apple.recovery.boot and the EFI, and then I booted into macOS. It as successfully done.~~ 
+
+EDIT: 
+1. i dont use olarila anymore. i didnt have internet at my house at the time of the first commit so using an olarila as an offline installer was the most easiest way to install. afterwards, i changed it to my efi.
+2. the github repo is owned by me (on discord it is @192.168.1.101/tmobile customer service). i keep it on github to make it easier to see the changes and what to fix it.
+3. if it is already built using an existing efi, i would have not known that since i got someone to help me build it for me (which makes it technically not a prebuilt if they know all my specifications and everything plus i helped troubleshoot my owwn problems and just asked them for assistance).
 
 
 ### Credits: 
